@@ -134,7 +134,7 @@ export default function CreatePost(props) {
             <h3>About</h3>
           </div>
           <div className="Profile-content" >
-            {/* {loading ? <div>
+            {loading ? <div>
                     <MoonLoader
                         css={override}
                         size={50}
@@ -142,7 +142,7 @@ export default function CreatePost(props) {
                         color={"#36D7B7"}
                         loading={loading}
                     />
-                </div> : ""} */}
+                </div> : ""}
             <table>
               <tr style={{ textAlign: "center" }}>
                 <td>Username:</td>
